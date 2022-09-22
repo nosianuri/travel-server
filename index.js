@@ -108,9 +108,9 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Running travel master');
+    res.send('Running travel master BD website');
 });
 
 app.listen(port, () => {
-    console.log('Travel master is running', port);
-})
+    console.log('Travel master BD website is running', port);
+});
